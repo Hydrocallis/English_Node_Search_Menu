@@ -1,0 +1,26 @@
+# English Node Search Menu extension manifest file
+schema_version = "1.0.0"
+id = "english_node_search_menu"
+version = "1.0.0"
+name = "English Node Search Menu"
+tagline = "Adds English search functionality to the node editor add menu"
+maintainer = "KSYN"
+type = "add-on"
+
+# Tags from the official Blender list
+tags = ["Node", "User Interface", "System"]
+
+blender_version_min = "4.2.0"
+blender_version_max = "4.2.2"
+
+# License
+license = [
+    "SPDX:GPL-3.0-or-later",
+]
+
+[build]
+paths_exclude_pattern = [
+    "__pycache__/",
+    "/.git/",
+    "/*.zip",
+]
